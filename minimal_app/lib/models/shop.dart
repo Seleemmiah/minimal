@@ -9,6 +9,7 @@ class Shop extends ChangeNotifier {
       name: 'Product 1',
       price: 20.33,
       description: 'item description...',
+      imagePath: 'assets/watch.JPG',
     ),
 
     // product 2
@@ -16,6 +17,7 @@ class Shop extends ChangeNotifier {
       name: 'Product 2',
       price: 19.33,
       description: 'item description...',
+      imagePath: 'assets/hoodie.JPG',
     ),
 
     // product 3
@@ -23,6 +25,7 @@ class Shop extends ChangeNotifier {
       name: 'Product 3',
       price: 18.33,
       description: 'item description...',
+      imagePath: 'assets/shoe.JPG',
     ),
 
     // product 4
@@ -30,6 +33,7 @@ class Shop extends ChangeNotifier {
       name: 'Product 4',
       price: 15.33,
       description: 'item description...',
+      imagePath: 'assets/glass.JPG',
     ),
   ];
 
