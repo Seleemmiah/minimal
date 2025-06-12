@@ -30,6 +30,7 @@ class MyDrawer extends StatelessWidget {
                 icon: Icons.home,
                 onTap: () {
                   Navigator.pop(context);
+                  // after popping the drawer,navigate to the shop page
                   Navigator.pushNamed(context, '/shop_page');
                 },
               ),
